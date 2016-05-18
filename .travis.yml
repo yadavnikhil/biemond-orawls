@@ -15,7 +15,7 @@ script:
   - bundle exec rake ci:setup:rspec spec
 notifications:
   email:
-    - yadavnik@gmail.com
+    - biemond@gmail.com
 env:
   - PUPPET_VERSION=3.4.3
   - PUPPET_VERSION=3.6.2
